@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/thermometer.png" type="image/x-icon">
+    <title>Conversor de temperatura</title>
+</head>
+
+<body>
+    <div class = "pagina">
+        <header>
+            <div class="container">
+                <h1 class="page-title">
+                    Conversor de temperatura
+                </h1>
+                <img src="img/logo-imersao-aluraflix.svg" class="page-logo" alt="Logo da página">
+            </div>
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="img/alura-logo.svg" alt="" class="alura-logo">
+                <img src="img/thermometer.png" style="height: 150px;">
+            </a>
+        </header>
+
+        <section>
+            <form id="form">
+                <label for="nome">Informe seu nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="tipoConversao">Selecione o tipo de conversão</label>
+                <select name="tipoConversao" id="tipoConversao">
+                    <option value="C-F">Celsius => Fahrenheit</option>
+                    <option value="C-K">Celsius => Kelvin</option>
+                    <option value="F-C">Fahrenheit => Celsius</option>
+                    <option value="F-K">Fahrenheit => Kelvin</option>
+                    <option value="K-C">Kelvin => Celsius</option>
+                    <option value="K-F">Kelvin => Fahrenheit</option>
+                </select>
+
+                <label for="valor">Valor a converter</label>
+                <input type="text" name="valor" id="valor">
+
+                <button>Converter</button>
+            </form>
+        </section>
+
+        <div id="resultado"></div>
+
+        <script src="calc.js">
+
+        </script>
+    </div>
+</body>
+
+</html>
