@@ -4,6 +4,9 @@
 
 Projeto desenvolvido na imersão JavaScript da Alura, realizada entre os dias 13/11/2023 e 17/11/2023. Trata-se de um conversor de temperatura proposto como desafio no primeiro dia da imersão (13/11/2023), tendo como base o layout do Conversor de moedas desenvolvido durante a aula e disponível neste link https://github.com/simastech-com/ConversorMoedas-ImersaoDev-Javascript.
 
+# Desafios
+Os desafios foram atividades deixadas ao fim da aula para serem resolvidas.
+
 <ul>
     <li><b>Alterar background:</b> [Realizado]</li>
     <li><b>Converter temperaturas em Celsius, Fahrenheit e Kelvin:</b> [Realizado]</li>
